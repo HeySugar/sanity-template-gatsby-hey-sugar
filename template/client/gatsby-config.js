@@ -1,4 +1,4 @@
-const sanity = require("../hey-sugar-tracker/sanity.json")
+const sanity = require("../tracker/sanity.json")
 
 module.exports = {
   siteMetadata: {
