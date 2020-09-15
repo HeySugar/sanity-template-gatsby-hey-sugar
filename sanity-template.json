@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "title": "HeySugar (Gatsby)",
+  "description": "HeySugar is an open-source, self hosted, blood sugar tracker for type one and type two diabetics. The tracker was developed with Sanity and data is presented on a website that is built with Gatsby.",
+  "deployment": {
+    "provider": "netlify",
+    "sites": [
+      {
+        "id": "tracker",
+        "type": "studio",
+        "title": "HeySugar Tracker",
+        "description": "The Tracker (Built with Sanity Studio) is where you post blood sugar test results.",
+        "dir": "./tracker",
+        "buildSettings": {
+          "base": "tracker",
+          "dir": "dist",
+          "cmd": "yarn build"
+        }
+      },
+      {
+        "id": "client",
+        "type": "web",
+        "title": "HeySugar Client",
+        "description": "The Client (Built with Gatsby) is the presentation layer that displays blood sugar test results.",
+        "dir": "./client",
+        "buildSettings": {
+          "base": "client",
+          "dir": "public",
+          "cmd": "yarn build"
+        }
+      }
+    ]
+  }
+}
