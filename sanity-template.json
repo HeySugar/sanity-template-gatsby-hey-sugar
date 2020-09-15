@@ -12,10 +12,11 @@
         "description": "The Tracker (Built with Sanity Studio) is where you post blood sugar test results.",
         "dir": "./tracker",
         "buildSettings": {
-          "base": "tracker",
+          "base": "/",
           "dir": "dist",
-          "cmd": "yarn build"
-        }
+          "cmd": "yarn build-tracker"
+        },
+        "requirements": ["build-hook"]
       },
       {
         "id": "client",
@@ -30,10 +31,11 @@
           }
         ],
         "buildSettings": {
-          "base": "client",
-          "dir": "public",
+          "base": "/",
+          "dir": "/client/public",
           "cmd": "yarn build-client"
-        }
+        },
+        "requirements": ["build-hook"]
       }
     ]
   }
