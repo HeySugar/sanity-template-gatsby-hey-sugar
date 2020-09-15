@@ -19,6 +19,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "build-client": "(cd ../tracker && SANITY_AUTH_TOKEN=$SANITY_DEPLOY_STUDIO_TOKEN yarn graphql-deploy) && (cd ../client && yarn build)",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
