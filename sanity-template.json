@@ -13,7 +13,7 @@
         "dir": "./tracker",
         "buildSettings": {
           "base": "/",
-          "dir": "dist",
+          "dir": "/tracker/dist",
           "cmd": "yarn build-tracker"
         },
         "requirements": ["build-hook"]
