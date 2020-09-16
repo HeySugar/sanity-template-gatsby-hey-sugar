@@ -4,3 +4,6 @@ node_modules/
 # Misc
 .idea/
 .DS_Store
+
+# Sanity Specific
+dist/
