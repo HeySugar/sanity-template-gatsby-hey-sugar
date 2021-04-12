@@ -54,6 +54,7 @@ typings/
 # dotenv environment variable files
 .env*
 !.env.example
+!.env.development.template
 
 # gatsby files
 .cache/
