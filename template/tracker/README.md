@@ -1,6 +1,14 @@
-# Sanity Clean Content Studio
+# <#< repository.name >#> Tracker Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This is the Sanity tracker backend site. This is where the data schema is placed. Go to [<#<deployments.web.url>#>](<#<deployments.web.url>#>) to login to the application.
+
+Manage all your Sanity application [here](https://manage.sanity.io/).
+
+## Upgrade
+
+Run the `sanity upgrade` command in the `tracker` folder via command line.
+
+## Other helpful links on Sanity
 
 Now you can do the following things:
 

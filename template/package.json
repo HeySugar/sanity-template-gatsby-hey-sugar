@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "lerna run build --parallel",
-    "dev": "lerna run dev --parallel",
+    "develop": "lerna run develop --parallel",
     "format": "lerna run format",
     "build-tracker": "lerna bootstrap && cd tracker && yarn build",
     "build-client": "lerna bootstrap && (cd tracker && SANITY_AUTH_TOKEN=$SANITY_DEPLOY_STUDIO_TOKEN yarn graphql-deploy) && (cd client && yarn build)",
