@@ -4,6 +4,10 @@ This is the Sanity tracker backend site. This is where the data schema is placed
 
 Manage all your Sanity application [here](https://manage.sanity.io/).
 
+## Upgrade
+
+Run the `sanity upgrade` command in the `tracker` folder via command line.
+
 ## Other helpful links on Sanity
 
 Now you can do the following things:
