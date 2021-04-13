@@ -15,7 +15,7 @@ export default () =>
             .title("My Readings")
             .defaultOrdering([{ field: "loggedAt", direction: "desc" }])
         ),
-
+        S.divider(),
       // Food section
       S.listItem()
         .title("My Foods")
