@@ -15,7 +15,6 @@ export default () =>
             .title("My Readings")
             .defaultOrdering([{ field: "loggedAt", direction: "desc" }])
         ),
-        S.divider(),
       // Food section
       S.listItem()
         .title("My Foods")
@@ -74,7 +73,6 @@ export default () =>
                 ),
             ])
         ),
-      S.divider(),
       S.listItem()
         .title("Settings")
         .icon(FiSettings)
@@ -85,7 +83,6 @@ export default () =>
             .documentId("settings")
             .title("Your Settings")
         ),
-      S.divider(),
       // `S.documentTypeListItems()` returns an array of all the document types
       // defined in schema.js. We filter out those that we have
       // defined the structure above.

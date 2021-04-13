@@ -1,6 +1,10 @@
 export default {
 widgets: [
 {
+  name: 'structure-menu',
+  layout: {width: 'medium'}
+},
+{
       name: 'project-info',
       options: {
         __experimental_before: [
