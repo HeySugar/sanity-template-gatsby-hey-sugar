@@ -19,7 +19,7 @@
         "buildSettings": {
           "base": "/",
           "dir": "/tracker/dist",
-          "cmd": "yarn build-tracker"
+          "cmd": "yarn build-tracker && cp ./tracker/netlify.toml ./tracker/dist"
         },
         "requirements": ["build-hook"]
       },
