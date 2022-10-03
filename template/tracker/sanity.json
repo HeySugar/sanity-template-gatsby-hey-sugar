@@ -13,7 +13,11 @@
     "@sanity/default-layout",
     "@sanity/default-login",
     "@sanity/desk-tool",
-    "@hey-sugar/sanity-plugin-hey-sugar-schema"
+    "@hey-sugar/sanity-plugin-hey-sugar-schema",
+    "@sanity/dashboard",
+    "@sanity/vision",
+    "dashboard-widget-structure-menu",
+    "dashboard-widget-netlify"
   ],
   "env": {
     "development": {
@@ -28,6 +32,14 @@
     {
       "name": "part:@sanity/desk-tool/structure",
       "path": "./src/structure/deskStructure.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./src/structure/dashboardConfig.js"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./logo/myLogo.js"
     }
   ]
 }
